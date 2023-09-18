@@ -1,0 +1,21 @@
+{
+  "name": "i-dont-know-typescript-yet",
+  "version": "1.0.0",
+  "description": "```javascript\r {\r   \"compilerOptions\": {\r     /* Basic Options */\r     // \"incremental\": true,                   /* Enable incremental compilation */\r     \"target\": \"es5\",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */\r     \"module\": \"commonjs\",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */\r     \"lib\": [\"es6\"],                     /* Specify library files to be included in the compilation. */\r     \"allowJs\": true,                          /* Allow javascript files to be compiled. */\r     // \"checkJs\": true,                       /* Report errors in .js files. */\r     // \"jsx\": \"preserve\",                     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */\r     // \"declaration\": true,                   /* Generates corresponding '.d.ts' file. */\r     // \"declarationMap\": true,                /* Generates a sourcemap for each corresponding '.d.ts' file. */\r     // \"sourceMap\": true,                     /* Generates corresponding '.map' file. */\r     // \"outFile\": \"./\",                       /* Concatenate and emit output to single file. */\r     \"outDir\": \"build\",                          /* Redirect output structure to the directory. */\r     \"rootDir\": \"src\",                         /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */\r     // \"composite\": true,                     /* Enable project compilation */\r     // \"tsBuildInfoFile\": \"./\",               /* Specify file to store incremental compilation information */\r     // \"removeComments\": true,                /* Do not emit comments to output. */\r     // \"noEmit\": true,                        /* Do not emit outputs. */\r     // \"importHelpers\": true,                 /* Import emit helpers from 'tslib'. */\r     // \"downlevelIteration\": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */\r     // \"isolatedModules\": true,               /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.6.2",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "jsdom": "^22.1.0"
+  }
+}
