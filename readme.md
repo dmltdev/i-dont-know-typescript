@@ -1,6 +1,6 @@
 # I Don't Know TypeScript
 
-```json
+```javascript
 {
   "compilerOptions": {
     /* Basic Options */
