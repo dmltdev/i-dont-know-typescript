@@ -24,13 +24,15 @@ Best practices for using type predicate functions for type narrowing:
 - Use automated testing and code analysis tools to detect potential errors or inconsistencies in the program.
 */
 
-function isString(x: unknown): x is string {
-  return typeof x === "string";
-}
-
-function reverseString(x: unknown) {
-  if (isString(x)) {
-    return x.split("").reverse().join("");
+namespace TypePredicates {
+  function isString(x: unknown): x is string {
+    return typeof x === "string";
   }
-  return null;
+
+  function reverseString(x: unknown) {
+    if (isString(x)) {
+      return x.split("").reverse().join("");
+    }
+    return null;
+  }
 }
