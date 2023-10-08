@@ -6,8 +6,10 @@ Just like checking for undefined before using an optional property,
 we can use narrowing to check for values that might be null:
 */
 
-function doSomething(name: string | null) {
-  if (name !== null) {
-    console.log(`Hello, ${name}`);
+namespace NullType {
+  function doSomething(name: string | null) {
+    if (name !== null) {
+      console.log(`Hello, ${name}`);
+    }
   }
 }
