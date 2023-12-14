@@ -1,1 +1,1 @@
-# ts-utils
+# ts-tricks
